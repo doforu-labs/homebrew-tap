@@ -1,9 +1,9 @@
 cask "doforu" do
   arch arm: "arm64", intel: "x64"
 
-  version "3.6.5"
-  sha256 arm:   "9b4dafefa86a739ca9fbc22ec8e105f9d78918a61742dfca0bb932b3d1e9d136",
-         intel: "fb21c5058c671a30fafedcd08a501de9abce73c3d76d751a30e47feb9794fbe7"
+  version "4.0.0"
+  sha256 arm:   "14da3b57d25ccb4d96ca31492bb6dc0e9c86ef09b43c06836e051f8942ab56b4",
+         intel: "b65b85addf557fc410b39e26a6f5cdf28f039d00a3044af5f3b422555573b557"
 
   url "https://files.doforu.ai/downloads/Doforu-#{version}-#{arch}.dmg"
   name "Doforu"
